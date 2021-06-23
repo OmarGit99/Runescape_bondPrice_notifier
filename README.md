@@ -9,5 +9,7 @@ How to set it up:
 <li> Add a cronjob on your pc (OR any scheduler) to run bash file or py file </li>
 <li> Profit??</li>
 
-To set limit alerts:
+
+<h3> To set limit alerts: </h3>
+
 Just change the condition within the if statement in the .py file to whatever value you like 💰
