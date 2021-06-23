@@ -10,11 +10,11 @@ price = bond_price[0].text
 
 price_int = int(price.replace(",", ""))
 
-if(price_int >= 28000000):
+if(price_int >= 28000000):  # <------ limit value goes over here
     port = 465  # For SSL
     password = "bonds2themoon"
     sender_email = "bondbot4rs@gmail.com"
-    receiver_email = "omarshaikh@outlook.com"
+    receiver_email = "omarshaikh@outlook.com"            # <------ your email address goes over here
     message = """\
     Subject: BOND ALERT BY BONDBOT4RS
 
@@ -24,7 +24,7 @@ if(price_int >= 28000000):
     context = ssl.create_default_context()
 
     with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
-        server.login("bondbot4rs@gmail.com", password)
+        server.login("bondbot4rs@gmail.com", password)                 
         # TODO: Send email here
         server.sendmail(sender_email, receiver_email, message)
 else:
