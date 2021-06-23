@@ -8,3 +8,6 @@ How to set it up:
 <li> Change the receiver email in the .py file to whatever email you are using </li>
 <li> Add a cronjob on your pc (OR any scheduler) to run bash file or py file </li>
 <li> Profit??</li>
+
+To set limit alerts:
+Just change the condition within the if statement in the .py file to whatever value you like 💰
