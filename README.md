@@ -1,7 +1,7 @@
 # Runescape_bond_price_notifier
 A simple bot script that can be scheduled to scrape bond price (for investing) and notify by Email using SMTP, can be configured to set limits for alerts.
 
-How to set it up:
+<h3> How to set it up: </h3>
 <li>
   Fix the path in the bash file
 </li>
