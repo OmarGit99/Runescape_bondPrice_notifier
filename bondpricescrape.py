@@ -28,4 +28,4 @@ if(price_int >= 28000000):
         # TODO: Send email here
         server.sendmail(sender_email, receiver_email, message)
 else:
-    print("Price lower then limit! :\(")
+    print("Price lower then limit! :( - "+ price + "gp")
